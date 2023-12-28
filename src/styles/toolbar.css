@@ -1,0 +1,54 @@
+.toolbar, .setting_bar {
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 5px gray;
+}
+.toolbar_btn, .setting_bar_btn {
+  width: 25px;
+  height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-size: cover;
+  margin-left: 15px;
+}
+.toolbar .brush, .setting_bar .brush {
+  background: url("../images/brush.svg") no-repeat center center;
+}
+.toolbar .rect, .setting_bar .rect {
+  background: url("../images/rect.svg") no-repeat center center;
+}
+.toolbar .circle, .setting_bar .circle {
+  background: url("../images/circle.svg") no-repeat center center;
+}
+.toolbar .eraser, .setting_bar .eraser {
+  background: url("../images/eraser.svg") no-repeat center center;
+}
+.toolbar .line, .setting_bar .line {
+  background: url("../images/line.svg") no-repeat center center;
+}
+.toolbar .undo, .setting_bar .undo {
+  margin-left: auto;
+  background: url("../images/undo.svg") no-repeat center center;
+}
+.toolbar .redo, .setting_bar .redo {
+  background: url("../images/redo.svg") no-repeat center center;
+}
+.toolbar .save, .setting_bar .save {
+  margin-right: 10px;
+  background: url("../images/save.svg") no-repeat center center;
+}
+
+.toolbar {
+  z-index: 999;
+}
+
+.setting_bar {
+  top: 40px;
+}
+
+/*# sourceMappingURL=toolbar.css.map */
